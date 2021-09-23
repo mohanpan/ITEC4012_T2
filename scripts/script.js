@@ -4,6 +4,9 @@ function initializeApp() {
     displayMeme();
 }
 
+//Testing
+
+
 async function displayMeme() {
     try {
         const response = await fetch("https://api.imgflip.com/get_memes");
